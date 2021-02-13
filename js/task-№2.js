@@ -9,6 +9,12 @@
 // const total = 100;
 // const ordered = 50;
 
-
-
-<script type="module"></script>
+const total = 100;
+const ordered = 99;
+const messageLimited = "На складе недостаточно товаров!";
+const messageUnlimited = "Заказ оформлен, с вами свяжется менеджер";
+if (total >= ordered) {
+  console.log(messageUnlimited);
+} else {
+  console.log(messageLimited);
+}
