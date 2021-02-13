@@ -7,8 +7,11 @@
 // Используя шаблонную строку выведи в консоль информацию о товаре, получится: 'Выбран «Генератор защитного поля», цена за штуку 2000 кредитов'.
 
 
-const productName = "Генератор защитного поля";
-  
-const price = 1000;
+const name = "Генератор защитного поля";
+let price = 1000;
+let message = `Выбран «${name}», цена за штуку ${price} кредитов`;
+console.log(message); 
 
-<script type="module"></script>
+price = 2000;
+message =`Выбран «${name}», цена за штуку ${price} кредитов`;
+console.log (message);
